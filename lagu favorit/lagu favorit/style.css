@@ -1,0 +1,46 @@
+#container{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap; /* Membolehkan elemen berpindah ke baris berikutnya */
+    gap: 13px; /* Jarak antar elemen */
+}
+
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    margin-top: 5;
+    margin: 5;
+    height: 100vh;
+}
+
+.lagu{
+    border-radius: 10px;
+    border:1.4px solid black;
+    width: 30%;
+    padding:15px;
+    background-color: rgb(255, 255, 255);
+    transition: 0.2s ease-in-out;
+}
+
+.lagu:hover{
+    transition: 0.2s ease-in-out;
+    transform: scale(1.05);
+}
+
+.lagu h2{
+    margin:0;
+}
+
+.lagu img{
+    width: 100%;
+    margin:20px 0px;
+    border-radius: 10px;
+}
+
+.bawah{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
